@@ -1,0 +1,781 @@
+[2020-09-13 09:39:07.200] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:50
+        x:() - Starting ChannelWebApplication on gyk with PID 9592 (D:\ant-web\channel-web\target\classes started by gyk in D:\ant-web)
+[2020-09-13 09:39:07.200] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:679
+        x:() - The following profiles are active: dev
+[2020-09-13 09:39:07.247] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-13 09:39:07.247] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-13 09:39:08.528] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90
+        x:() - Tomcat initialized with port(s): 8082 (http)
+[2020-09-13 09:39:08.543] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Initializing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 09:39:08.559] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Starting service [Tomcat]
+[2020-09-13 09:39:08.559] [restartedMain] [INFO] org.apache.catalina.core.StandardEngine:173
+        x:() - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2020-09-13 09:39:08.559] [restartedMain] [INFO] org.apache.catalina.core.AprLifecycleListener:173
+        x:() - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\soft\JDK8_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\soft\apache-maven-3.5.3\bin;E:\Program Files\Git\cmd;E:\Program Files\nodejs\;E:\Program Files\nodejs;E:\Program Files\MySQL\MySQL Server 8.0\bin;F:\soft\JDK8_64\bin;C:\Users\gyk\AppData\Local\Microsoft\WindowsApps;C:\Users\gyk\AppData\Roaming\npm;.]
+[2020-09-13 09:39:08.653] [restartedMain] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring embedded WebApplicationContext
+[2020-09-13 09:39:08.653] [restartedMain] [INFO] org.springframework.web.context.ContextLoader:296
+        x:() - Root WebApplicationContext: initialization completed in 1406 ms
+[2020-09-13 09:39:08.700] [restartedMain] [INFO] org.springframework.boot.web.servlet.RegistrationBean:111
+        x:() - Servlet statViewServlet was not registered (possibly already registered?)
+[2020-09-13 09:39:08.746] [restartedMain] [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56
+        x:() - Init DruidDataSource
+[2020-09-13 09:39:08.903] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} inited
+[2020-09-13 09:39:09.262] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171
+        x:() - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-13 09:39:09.387] [restartedMain] [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61
+        x:() - Adding welcome page template: index
+[2020-09-13 09:39:09.699] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1172
+        x:() - Using default implementation for ThreadExecutor
+[2020-09-13 09:39:09.715] [restartedMain] [INFO] org.quartz.core.SchedulerSignalerImpl:61
+        x:() - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-13 09:39:09.715] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:240
+        x:() - Quartz Scheduler v.2.2.3 created.
+[2020-09-13 09:39:09.715] [restartedMain] [INFO] org.quartz.simpl.RAMJobStore:155
+        x:() - RAMJobStore initialized.
+[2020-09-13 09:39:09.715] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:305
+        x:() - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2020-09-13 09:39:09.715] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1327
+        x:() - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2020-09-13 09:39:09.715] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1331
+        x:() - Quartz scheduler version: 2.2.3
+[2020-09-13 09:39:09.715] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:2311
+        x:() - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4fd4e005
+[2020-09-13 09:39:09.715] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171
+        x:() - Initializing ExecutorService 'taskScheduler'
+[2020-09-13 09:39:09.793] [restartedMain] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57
+        x:() - LiveReload server is running on port 35729
+[2020-09-13 09:39:09.809] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:726
+        x:() - Starting Quartz Scheduler now
+[2020-09-13 09:39:09.809] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:575
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2020-09-13 09:39:09.824] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Starting ProtocolHandler ["http-nio-8082"]
+[2020-09-13 09:39:09.840] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204
+        x:() - Tomcat started on port(s): 8082 (http) with context path ''
+[2020-09-13 09:39:09.840] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:59
+        x:() - Started ChannelWebApplication in 3.021 seconds (JVM running for 4.984)
+[2020-09-13 09:39:54.814] [http-nio-8082-exec-1] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-09-13 09:39:54.814] [http-nio-8082-exec-1] [INFO] org.springframework.web.servlet.DispatcherServlet:524
+        x:() - Initializing Servlet 'dispatcherServlet'
+[2020-09-13 09:39:54.819] [http-nio-8082-exec-1] [INFO] org.springframework.web.servlet.DispatcherServlet:546
+        x:() - Completed initialization in 5 ms
+[2020-09-13 09:39:55.067] [http-nio-8082-exec-2] [INFO] com.gao.channelcore.business.service.UserService:66
+        x:() - get token use time:39
+[2020-09-13 21:18:31.682] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:50
+        x:() - Starting ChannelWebApplication on gyk with PID 5068 (D:\ant-web\channel-web\target\classes started by gyk in D:\ant-web)
+[2020-09-13 21:18:31.685] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:679
+        x:() - The following profiles are active: dev
+[2020-09-13 21:18:31.746] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-13 21:18:31.747] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-13 21:18:33.664] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90
+        x:() - Tomcat initialized with port(s): 8082 (http)
+[2020-09-13 21:18:33.679] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Initializing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:18:33.686] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Starting service [Tomcat]
+[2020-09-13 21:18:33.687] [restartedMain] [INFO] org.apache.catalina.core.StandardEngine:173
+        x:() - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2020-09-13 21:18:33.693] [restartedMain] [INFO] org.apache.catalina.core.AprLifecycleListener:173
+        x:() - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\soft\JDK8_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\soft\apache-maven-3.5.3\bin;E:\Program Files\Git\cmd;E:\Program Files\nodejs\;E:\Program Files\nodejs;E:\Program Files\MySQL\MySQL Server 8.0\bin;F:\soft\JDK8_64\bin;C:\Users\gyk\AppData\Local\Microsoft\WindowsApps;C:\Users\gyk\AppData\Roaming\npm;.]
+[2020-09-13 21:18:33.804] [restartedMain] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring embedded WebApplicationContext
+[2020-09-13 21:18:33.804] [restartedMain] [INFO] org.springframework.web.context.ContextLoader:296
+        x:() - Root WebApplicationContext: initialization completed in 2057 ms
+[2020-09-13 21:18:33.843] [restartedMain] [INFO] org.springframework.boot.web.servlet.RegistrationBean:111
+        x:() - Servlet statViewServlet was not registered (possibly already registered?)
+[2020-09-13 21:18:33.901] [restartedMain] [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56
+        x:() - Init DruidDataSource
+[2020-09-13 21:18:34.107] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} inited
+[2020-09-13 21:18:34.482] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171
+        x:() - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-13 21:18:34.610] [restartedMain] [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61
+        x:() - Adding welcome page template: index
+[2020-09-13 21:18:34.974] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1172
+        x:() - Using default implementation for ThreadExecutor
+[2020-09-13 21:18:34.986] [restartedMain] [INFO] org.quartz.core.SchedulerSignalerImpl:61
+        x:() - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-13 21:18:34.986] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:240
+        x:() - Quartz Scheduler v.2.2.3 created.
+[2020-09-13 21:18:34.987] [restartedMain] [INFO] org.quartz.simpl.RAMJobStore:155
+        x:() - RAMJobStore initialized.
+[2020-09-13 21:18:34.988] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:305
+        x:() - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2020-09-13 21:18:34.988] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1327
+        x:() - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2020-09-13 21:18:34.988] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1331
+        x:() - Quartz scheduler version: 2.2.3
+[2020-09-13 21:18:34.988] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:2311
+        x:() - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3f381f06
+[2020-09-13 21:18:34.995] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171
+        x:() - Initializing ExecutorService 'taskScheduler'
+[2020-09-13 21:18:35.061] [restartedMain] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57
+        x:() - LiveReload server is running on port 35729
+[2020-09-13 21:18:35.086] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:726
+        x:() - Starting Quartz Scheduler now
+[2020-09-13 21:18:35.087] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:575
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2020-09-13 21:18:35.095] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Starting ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:18:35.107] [restartedMain] [ERROR] org.apache.catalina.util.LifecycleBase:175
+        x:() - Failed to start component [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.gao.channelweb.ChannelWebApplication.main(ChannelWebApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+[2020-09-13 21:18:35.130] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Pausing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:18:35.130] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Stopping service [Tomcat]
+[2020-09-13 21:18:35.135] [restartedMain] [INFO] org.apache.catalina.util.LifecycleBase:173
+        x:() - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2020-09-13 21:18:35.136] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Stopping ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:18:35.136] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Destroying ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:18:35.138] [restartedMain] [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:142
+        x:() - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-09-13 21:18:35.142] [restartedMain] [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42
+        x:() - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8082 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8082, or configure this application to listen on another port.
+
+[2020-09-13 21:18:35.144] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 21:18:35.145] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208
+        x:() - Shutting down ExecutorService 'taskScheduler'
+[2020-09-13 21:18:35.145] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:844
+        x:() - Shutting down Quartz Scheduler
+[2020-09-13 21:18:35.145] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:694
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-13 21:18:35.146] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 21:18:35.146] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:771
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-13 21:18:35.147] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208
+        x:() - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-13 21:18:35.150] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} closed
+[2020-09-13 21:19:13.849] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:50
+        x:() - Starting ChannelWebApplication on gyk with PID 6048 (D:\ant-web\channel-web\target\classes started by gyk in D:\ant-web)
+[2020-09-13 21:19:13.852] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:679
+        x:() - The following profiles are active: dev
+[2020-09-13 21:19:13.908] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-13 21:19:13.908] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-13 21:19:15.365] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90
+        x:() - Tomcat initialized with port(s): 8082 (http)
+[2020-09-13 21:19:15.379] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Initializing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:15.385] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Starting service [Tomcat]
+[2020-09-13 21:19:15.385] [restartedMain] [INFO] org.apache.catalina.core.StandardEngine:173
+        x:() - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2020-09-13 21:19:15.391] [restartedMain] [INFO] org.apache.catalina.core.AprLifecycleListener:173
+        x:() - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\soft\JDK8_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\soft\apache-maven-3.5.3\bin;E:\Program Files\Git\cmd;E:\Program Files\nodejs\;E:\Program Files\nodejs;E:\Program Files\MySQL\MySQL Server 8.0\bin;F:\soft\JDK8_64\bin;C:\Users\gyk\AppData\Local\Microsoft\WindowsApps;C:\Users\gyk\AppData\Roaming\npm;.]
+[2020-09-13 21:19:15.500] [restartedMain] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring embedded WebApplicationContext
+[2020-09-13 21:19:15.500] [restartedMain] [INFO] org.springframework.web.context.ContextLoader:296
+        x:() - Root WebApplicationContext: initialization completed in 1592 ms
+[2020-09-13 21:19:15.539] [restartedMain] [INFO] org.springframework.boot.web.servlet.RegistrationBean:111
+        x:() - Servlet statViewServlet was not registered (possibly already registered?)
+[2020-09-13 21:19:15.614] [restartedMain] [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56
+        x:() - Init DruidDataSource
+[2020-09-13 21:19:15.800] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} inited
+[2020-09-13 21:19:16.195] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171
+        x:() - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-13 21:19:16.359] [restartedMain] [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61
+        x:() - Adding welcome page template: index
+[2020-09-13 21:19:16.710] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1172
+        x:() - Using default implementation for ThreadExecutor
+[2020-09-13 21:19:16.721] [restartedMain] [INFO] org.quartz.core.SchedulerSignalerImpl:61
+        x:() - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-13 21:19:16.722] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:240
+        x:() - Quartz Scheduler v.2.2.3 created.
+[2020-09-13 21:19:16.723] [restartedMain] [INFO] org.quartz.simpl.RAMJobStore:155
+        x:() - RAMJobStore initialized.
+[2020-09-13 21:19:16.723] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:305
+        x:() - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2020-09-13 21:19:16.724] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1327
+        x:() - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2020-09-13 21:19:16.724] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1331
+        x:() - Quartz scheduler version: 2.2.3
+[2020-09-13 21:19:16.724] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:2311
+        x:() - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4575d7b9
+[2020-09-13 21:19:16.731] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171
+        x:() - Initializing ExecutorService 'taskScheduler'
+[2020-09-13 21:19:16.800] [restartedMain] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57
+        x:() - LiveReload server is running on port 35729
+[2020-09-13 21:19:16.826] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:726
+        x:() - Starting Quartz Scheduler now
+[2020-09-13 21:19:16.827] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:575
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2020-09-13 21:19:16.836] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Starting ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:16.848] [restartedMain] [ERROR] org.apache.catalina.util.LifecycleBase:175
+        x:() - Failed to start component [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.gao.channelweb.ChannelWebApplication.main(ChannelWebApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+[2020-09-13 21:19:16.854] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Pausing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:16.855] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Stopping service [Tomcat]
+[2020-09-13 21:19:16.860] [restartedMain] [INFO] org.apache.catalina.util.LifecycleBase:173
+        x:() - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2020-09-13 21:19:16.860] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Stopping ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:16.861] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Destroying ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:16.863] [restartedMain] [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:142
+        x:() - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-09-13 21:19:16.868] [restartedMain] [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42
+        x:() - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8082 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8082, or configure this application to listen on another port.
+
+[2020-09-13 21:19:16.872] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 21:19:16.872] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208
+        x:() - Shutting down ExecutorService 'taskScheduler'
+[2020-09-13 21:19:16.872] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:844
+        x:() - Shutting down Quartz Scheduler
+[2020-09-13 21:19:16.873] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:694
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-13 21:19:16.873] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 21:19:16.873] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:771
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-13 21:19:16.874] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208
+        x:() - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-13 21:19:16.877] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} closed
+[2020-09-13 21:19:38.964] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:50
+        x:() - Starting ChannelWebApplication on gyk with PID 7228 (D:\ant-web\channel-web\target\classes started by gyk in D:\ant-web)
+[2020-09-13 21:19:38.967] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:679
+        x:() - The following profiles are active: dev
+[2020-09-13 21:19:39.013] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-13 21:19:39.014] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-13 21:19:40.257] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90
+        x:() - Tomcat initialized with port(s): 8082 (http)
+[2020-09-13 21:19:40.271] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Initializing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:40.277] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Starting service [Tomcat]
+[2020-09-13 21:19:40.278] [restartedMain] [INFO] org.apache.catalina.core.StandardEngine:173
+        x:() - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2020-09-13 21:19:40.286] [restartedMain] [INFO] org.apache.catalina.core.AprLifecycleListener:173
+        x:() - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\soft\JDK8_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\soft\apache-maven-3.5.3\bin;E:\Program Files\Git\cmd;E:\Program Files\nodejs\;E:\Program Files\nodejs;E:\Program Files\MySQL\MySQL Server 8.0\bin;F:\soft\JDK8_64\bin;C:\Users\gyk\AppData\Local\Microsoft\WindowsApps;C:\Users\gyk\AppData\Roaming\npm;.]
+[2020-09-13 21:19:40.406] [restartedMain] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring embedded WebApplicationContext
+[2020-09-13 21:19:40.406] [restartedMain] [INFO] org.springframework.web.context.ContextLoader:296
+        x:() - Root WebApplicationContext: initialization completed in 1392 ms
+[2020-09-13 21:19:40.460] [restartedMain] [INFO] org.springframework.boot.web.servlet.RegistrationBean:111
+        x:() - Servlet statViewServlet was not registered (possibly already registered?)
+[2020-09-13 21:19:40.523] [restartedMain] [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56
+        x:() - Init DruidDataSource
+[2020-09-13 21:19:40.681] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} inited
+[2020-09-13 21:19:41.027] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171
+        x:() - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-13 21:19:41.148] [restartedMain] [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61
+        x:() - Adding welcome page template: index
+[2020-09-13 21:19:41.465] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1172
+        x:() - Using default implementation for ThreadExecutor
+[2020-09-13 21:19:41.476] [restartedMain] [INFO] org.quartz.core.SchedulerSignalerImpl:61
+        x:() - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-13 21:19:41.476] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:240
+        x:() - Quartz Scheduler v.2.2.3 created.
+[2020-09-13 21:19:41.477] [restartedMain] [INFO] org.quartz.simpl.RAMJobStore:155
+        x:() - RAMJobStore initialized.
+[2020-09-13 21:19:41.478] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:305
+        x:() - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2020-09-13 21:19:41.478] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1327
+        x:() - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2020-09-13 21:19:41.478] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1331
+        x:() - Quartz scheduler version: 2.2.3
+[2020-09-13 21:19:41.478] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:2311
+        x:() - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2d4f4882
+[2020-09-13 21:19:41.485] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171
+        x:() - Initializing ExecutorService 'taskScheduler'
+[2020-09-13 21:19:41.546] [restartedMain] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57
+        x:() - LiveReload server is running on port 35729
+[2020-09-13 21:19:41.570] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:726
+        x:() - Starting Quartz Scheduler now
+[2020-09-13 21:19:41.570] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:575
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2020-09-13 21:19:41.579] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Starting ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:41.590] [restartedMain] [ERROR] org.apache.catalina.util.LifecycleBase:175
+        x:() - Failed to start component [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.gao.channelweb.ChannelWebApplication.main(ChannelWebApplication.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+[2020-09-13 21:19:41.596] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Pausing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:41.596] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Stopping service [Tomcat]
+[2020-09-13 21:19:41.602] [restartedMain] [INFO] org.apache.catalina.util.LifecycleBase:173
+        x:() - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2020-09-13 21:19:41.602] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Stopping ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:41.602] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Destroying ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:19:41.605] [restartedMain] [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:142
+        x:() - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-09-13 21:19:41.609] [restartedMain] [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42
+        x:() - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8082 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8082, or configure this application to listen on another port.
+
+[2020-09-13 21:19:41.611] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 21:19:41.612] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208
+        x:() - Shutting down ExecutorService 'taskScheduler'
+[2020-09-13 21:19:41.612] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:844
+        x:() - Shutting down Quartz Scheduler
+[2020-09-13 21:19:41.612] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:694
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-13 21:19:41.612] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 21:19:41.612] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:771
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-13 21:19:41.613] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208
+        x:() - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-13 21:19:41.616] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} closed
+[2020-09-13 21:23:19.952] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:50
+        x:() - Starting ChannelWebApplication on gyk with PID 9132 (D:\ant-web\channel-web\target\classes started by gyk in D:\ant-web)
+[2020-09-13 21:23:19.955] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:679
+        x:() - The following profiles are active: dev
+[2020-09-13 21:23:19.999] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-13 21:23:19.999] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-13 21:23:21.198] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90
+        x:() - Tomcat initialized with port(s): 8082 (http)
+[2020-09-13 21:23:21.209] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Initializing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:23:21.215] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Starting service [Tomcat]
+[2020-09-13 21:23:21.216] [restartedMain] [INFO] org.apache.catalina.core.StandardEngine:173
+        x:() - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2020-09-13 21:23:21.222] [restartedMain] [INFO] org.apache.catalina.core.AprLifecycleListener:173
+        x:() - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\soft\JDK8_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\soft\apache-maven-3.5.3\bin;E:\Program Files\Git\cmd;E:\Program Files\nodejs\;E:\Program Files\nodejs;E:\Program Files\MySQL\MySQL Server 8.0\bin;F:\soft\JDK8_64\bin;C:\Users\gyk\AppData\Local\Microsoft\WindowsApps;C:\Users\gyk\AppData\Roaming\npm;.]
+[2020-09-13 21:23:21.322] [restartedMain] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring embedded WebApplicationContext
+[2020-09-13 21:23:21.322] [restartedMain] [INFO] org.springframework.web.context.ContextLoader:296
+        x:() - Root WebApplicationContext: initialization completed in 1322 ms
+[2020-09-13 21:23:21.356] [restartedMain] [INFO] org.springframework.boot.web.servlet.RegistrationBean:111
+        x:() - Servlet statViewServlet was not registered (possibly already registered?)
+[2020-09-13 21:23:21.406] [restartedMain] [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56
+        x:() - Init DruidDataSource
+[2020-09-13 21:23:21.587] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} inited
+[2020-09-13 21:23:21.948] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171
+        x:() - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-13 21:23:22.069] [restartedMain] [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61
+        x:() - Adding welcome page template: index
+[2020-09-13 21:23:22.398] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1172
+        x:() - Using default implementation for ThreadExecutor
+[2020-09-13 21:23:22.408] [restartedMain] [INFO] org.quartz.core.SchedulerSignalerImpl:61
+        x:() - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-13 21:23:22.408] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:240
+        x:() - Quartz Scheduler v.2.2.3 created.
+[2020-09-13 21:23:22.409] [restartedMain] [INFO] org.quartz.simpl.RAMJobStore:155
+        x:() - RAMJobStore initialized.
+[2020-09-13 21:23:22.410] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:305
+        x:() - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2020-09-13 21:23:22.410] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1327
+        x:() - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2020-09-13 21:23:22.410] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1331
+        x:() - Quartz scheduler version: 2.2.3
+[2020-09-13 21:23:22.410] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:2311
+        x:() - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4564016b
+[2020-09-13 21:23:22.418] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171
+        x:() - Initializing ExecutorService 'taskScheduler'
+[2020-09-13 21:23:22.490] [restartedMain] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57
+        x:() - LiveReload server is running on port 35729
+[2020-09-13 21:23:22.511] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:726
+        x:() - Starting Quartz Scheduler now
+[2020-09-13 21:23:22.511] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:575
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2020-09-13 21:23:22.527] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Starting ProtocolHandler ["http-nio-8082"]
+[2020-09-13 21:23:22.558] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204
+        x:() - Tomcat started on port(s): 8082 (http) with context path ''
+[2020-09-13 21:23:22.565] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:59
+        x:() - Started ChannelWebApplication in 2.933 seconds (JVM running for 4.283)
+[2020-09-13 21:23:28.277] [http-nio-8082-exec-1] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-09-13 21:23:28.277] [http-nio-8082-exec-1] [INFO] org.springframework.web.servlet.DispatcherServlet:524
+        x:() - Initializing Servlet 'dispatcherServlet'
+[2020-09-13 21:23:28.285] [http-nio-8082-exec-1] [INFO] org.springframework.web.servlet.DispatcherServlet:546
+        x:() - Completed initialization in 8 ms
+[2020-09-13 21:23:31.010] [http-nio-8082-exec-6] [INFO] com.gao.channelcore.business.service.UserService:66
+        x:() - get token use time:25
+[2020-09-13 22:13:05.180] [Thread-13] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 22:13:05.182] [Thread-13] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208
+        x:() - Shutting down ExecutorService 'taskScheduler'
+[2020-09-13 22:13:05.182] [Thread-13] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:844
+        x:() - Shutting down Quartz Scheduler
+[2020-09-13 22:13:05.182] [Thread-13] [INFO] org.quartz.core.QuartzScheduler:694
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-13 22:13:05.183] [Thread-13] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 22:13:05.183] [Thread-13] [INFO] org.quartz.core.QuartzScheduler:771
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-13 22:13:05.184] [Thread-13] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208
+        x:() - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-13 22:13:05.189] [Thread-13] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} closed
+[2020-09-13 22:13:10.493] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:50
+        x:() - Starting ChannelWebApplication on gyk with PID 10540 (D:\ant-web\channel-web\target\classes started by gyk in D:\ant-web)
+[2020-09-13 22:13:10.496] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:679
+        x:() - The following profiles are active: dev
+[2020-09-13 22:13:10.543] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-13 22:13:10.543] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-13 22:13:11.888] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90
+        x:() - Tomcat initialized with port(s): 8082 (http)
+[2020-09-13 22:13:11.901] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Initializing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 22:13:11.908] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Starting service [Tomcat]
+[2020-09-13 22:13:11.909] [restartedMain] [INFO] org.apache.catalina.core.StandardEngine:173
+        x:() - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2020-09-13 22:13:11.914] [restartedMain] [INFO] org.apache.catalina.core.AprLifecycleListener:173
+        x:() - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\soft\JDK8_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\soft\apache-maven-3.5.3\bin;E:\Program Files\Git\cmd;E:\Program Files\nodejs\;E:\Program Files\nodejs;E:\Program Files\MySQL\MySQL Server 8.0\bin;F:\soft\JDK8_64\bin;C:\Users\gyk\AppData\Local\Microsoft\WindowsApps;C:\Users\gyk\AppData\Roaming\npm;.]
+[2020-09-13 22:13:12.024] [restartedMain] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring embedded WebApplicationContext
+[2020-09-13 22:13:12.025] [restartedMain] [INFO] org.springframework.web.context.ContextLoader:296
+        x:() - Root WebApplicationContext: initialization completed in 1482 ms
+[2020-09-13 22:13:12.062] [restartedMain] [INFO] org.springframework.boot.web.servlet.RegistrationBean:111
+        x:() - Servlet statViewServlet was not registered (possibly already registered?)
+[2020-09-13 22:13:12.115] [restartedMain] [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56
+        x:() - Init DruidDataSource
+[2020-09-13 22:13:12.279] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} inited
+[2020-09-13 22:13:12.681] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171
+        x:() - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-13 22:13:12.846] [restartedMain] [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61
+        x:() - Adding welcome page template: index
+[2020-09-13 22:13:13.174] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1172
+        x:() - Using default implementation for ThreadExecutor
+[2020-09-13 22:13:13.185] [restartedMain] [INFO] org.quartz.core.SchedulerSignalerImpl:61
+        x:() - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-13 22:13:13.185] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:240
+        x:() - Quartz Scheduler v.2.2.3 created.
+[2020-09-13 22:13:13.186] [restartedMain] [INFO] org.quartz.simpl.RAMJobStore:155
+        x:() - RAMJobStore initialized.
+[2020-09-13 22:13:13.187] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:305
+        x:() - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2020-09-13 22:13:13.187] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1327
+        x:() - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2020-09-13 22:13:13.187] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1331
+        x:() - Quartz scheduler version: 2.2.3
+[2020-09-13 22:13:13.187] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:2311
+        x:() - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6efee8e8
+[2020-09-13 22:13:13.194] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171
+        x:() - Initializing ExecutorService 'taskScheduler'
+[2020-09-13 22:13:13.254] [restartedMain] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57
+        x:() - LiveReload server is running on port 35729
+[2020-09-13 22:13:13.280] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:726
+        x:() - Starting Quartz Scheduler now
+[2020-09-13 22:13:13.280] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:575
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2020-09-13 22:13:13.290] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Starting ProtocolHandler ["http-nio-8082"]
+[2020-09-13 22:13:13.313] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204
+        x:() - Tomcat started on port(s): 8082 (http) with context path ''
+[2020-09-13 22:13:13.315] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:59
+        x:() - Started ChannelWebApplication in 3.196 seconds (JVM running for 4.666)
+[2020-09-13 22:13:13.485] [http-nio-8082-exec-1] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-09-13 22:13:13.486] [http-nio-8082-exec-1] [INFO] org.springframework.web.servlet.DispatcherServlet:524
+        x:() - Initializing Servlet 'dispatcherServlet'
+[2020-09-13 22:13:13.492] [http-nio-8082-exec-1] [INFO] org.springframework.web.servlet.DispatcherServlet:546
+        x:() - Completed initialization in 6 ms
+[2020-09-13 22:13:43.395] [Thread-15] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 22:13:43.396] [Thread-15] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208
+        x:() - Shutting down ExecutorService 'taskScheduler'
+[2020-09-13 22:13:43.396] [Thread-15] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:844
+        x:() - Shutting down Quartz Scheduler
+[2020-09-13 22:13:43.396] [Thread-15] [INFO] org.quartz.core.QuartzScheduler:694
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-13 22:13:43.396] [Thread-15] [INFO] org.quartz.core.QuartzScheduler:613
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-13 22:13:43.396] [Thread-15] [INFO] org.quartz.core.QuartzScheduler:771
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-13 22:13:43.397] [Thread-15] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208
+        x:() - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-13 22:13:43.400] [Thread-15] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} closed
+[2020-09-13 22:13:46.865] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:50
+        x:() - Starting ChannelWebApplication on gyk with PID 10460 (D:\ant-web\channel-web\target\classes started by gyk in D:\ant-web)
+[2020-09-13 22:13:46.867] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:679
+        x:() - The following profiles are active: dev
+[2020-09-13 22:13:46.914] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-13 22:13:46.914] [restartedMain] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:227
+        x:() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-13 22:13:48.106] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90
+        x:() - Tomcat initialized with port(s): 8082 (http)
+[2020-09-13 22:13:48.117] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Initializing ProtocolHandler ["http-nio-8082"]
+[2020-09-13 22:13:48.123] [restartedMain] [INFO] org.apache.catalina.core.StandardService:173
+        x:() - Starting service [Tomcat]
+[2020-09-13 22:13:48.123] [restartedMain] [INFO] org.apache.catalina.core.StandardEngine:173
+        x:() - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[2020-09-13 22:13:48.129] [restartedMain] [INFO] org.apache.catalina.core.AprLifecycleListener:173
+        x:() - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\soft\JDK8_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\soft\apache-maven-3.5.3\bin;E:\Program Files\Git\cmd;E:\Program Files\nodejs\;E:\Program Files\nodejs;E:\Program Files\MySQL\MySQL Server 8.0\bin;F:\soft\JDK8_64\bin;C:\Users\gyk\AppData\Local\Microsoft\WindowsApps;C:\Users\gyk\AppData\Roaming\npm;.]
+[2020-09-13 22:13:48.229] [restartedMain] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring embedded WebApplicationContext
+[2020-09-13 22:13:48.229] [restartedMain] [INFO] org.springframework.web.context.ContextLoader:296
+        x:() - Root WebApplicationContext: initialization completed in 1315 ms
+[2020-09-13 22:13:48.262] [restartedMain] [INFO] org.springframework.boot.web.servlet.RegistrationBean:111
+        x:() - Servlet statViewServlet was not registered (possibly already registered?)
+[2020-09-13 22:13:48.313] [restartedMain] [INFO] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56
+        x:() - Init DruidDataSource
+[2020-09-13 22:13:48.463] [restartedMain] [INFO] com.alibaba.druid.pool.DruidDataSource:106
+        x:() - {dataSource-1} inited
+[2020-09-13 22:13:48.783] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171
+        x:() - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-13 22:13:48.898] [restartedMain] [INFO] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:61
+        x:() - Adding welcome page template: index
+[2020-09-13 22:13:49.201] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1172
+        x:() - Using default implementation for ThreadExecutor
+[2020-09-13 22:13:49.210] [restartedMain] [INFO] org.quartz.core.SchedulerSignalerImpl:61
+        x:() - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-13 22:13:49.210] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:240
+        x:() - Quartz Scheduler v.2.2.3 created.
+[2020-09-13 22:13:49.212] [restartedMain] [INFO] org.quartz.simpl.RAMJobStore:155
+        x:() - RAMJobStore initialized.
+[2020-09-13 22:13:49.212] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:305
+        x:() - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2020-09-13 22:13:49.212] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1327
+        x:() - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[2020-09-13 22:13:49.212] [restartedMain] [INFO] org.quartz.impl.StdSchedulerFactory:1331
+        x:() - Quartz scheduler version: 2.2.3
+[2020-09-13 22:13:49.213] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:2311
+        x:() - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1201e1fd
+[2020-09-13 22:13:49.218] [restartedMain] [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171
+        x:() - Initializing ExecutorService 'taskScheduler'
+[2020-09-13 22:13:49.277] [restartedMain] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57
+        x:() - LiveReload server is running on port 35729
+[2020-09-13 22:13:49.302] [restartedMain] [INFO] org.springframework.scheduling.quartz.SchedulerFactoryBean:726
+        x:() - Starting Quartz Scheduler now
+[2020-09-13 22:13:49.302] [restartedMain] [INFO] org.quartz.core.QuartzScheduler:575
+        x:() - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[2020-09-13 22:13:49.311] [restartedMain] [INFO] org.apache.coyote.http11.Http11NioProtocol:173
+        x:() - Starting ProtocolHandler ["http-nio-8082"]
+[2020-09-13 22:13:49.332] [restartedMain] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204
+        x:() - Tomcat started on port(s): 8082 (http) with context path ''
+[2020-09-13 22:13:49.335] [restartedMain] [INFO] com.gao.channelweb.ChannelWebApplication:59
+        x:() - Started ChannelWebApplication in 2.822 seconds (JVM running for 4.147)
+[2020-09-13 22:13:53.893] [http-nio-8082-exec-1] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173
+        x:() - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-09-13 22:13:53.894] [http-nio-8082-exec-1] [INFO] org.springframework.web.servlet.DispatcherServlet:524
+        x:() - Initializing Servlet 'dispatcherServlet'
+[2020-09-13 22:13:53.899] [http-nio-8082-exec-1] [INFO] org.springframework.web.servlet.DispatcherServlet:546
+        x:() - Completed initialization in 5 ms
+[2020-09-13 22:20:02.832] [http-nio-8082-exec-1] [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver:197
+        x:() - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "dfas": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "dfas": not a valid Integer value
+ at [Source: (PushbackInputStream); line: 1, column: 51] (through reference chain: com.gao.channelcore.pojo.Menu["sort"])]
+[2020-09-13 22:43:42.923] [http-nio-8082-exec-9] [INFO] com.gao.channelcore.business.service.UserService:66
+        x:() - get token use time:26
+[2020-09-13 22:45:34.064] [http-nio-8082-exec-5] [INFO] com.gao.channelcore.business.service.UserService:66
+        x:() - get token use time:0

@@ -1,0 +1,6 @@
+[2020-03-30 22:08:25.277] [restartedMain] [WARN] org.mybatis.spring.mapper.ClassPathMapperScanner:44
+        x:() - No MyBatis mapper was found in '[com.gao.channelcore.business.dao]' package. Please check your configuration.
+[2020-03-30 22:08:25.298] [restartedMain] [WARN] org.mybatis.spring.mapper.ClassPathMapperScanner:44
+        x:() - No MyBatis mapper was found in '[com.gao.channelweb]' package. Please check your configuration.
+[2020-03-30 22:08:25.433] [restartedMain] [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:557
+        x:() - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menuController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.gao.channelweb.controller.MenuController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3acd530d]

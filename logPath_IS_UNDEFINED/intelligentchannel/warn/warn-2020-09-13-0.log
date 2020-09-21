@@ -1,0 +1,3 @@
+[2020-09-13 22:20:02.832] [http-nio-8082-exec-1] [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver:197
+        x:() - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "dfas": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "dfas": not a valid Integer value
+ at [Source: (PushbackInputStream); line: 1, column: 51] (through reference chain: com.gao.channelcore.pojo.Menu["sort"])]
