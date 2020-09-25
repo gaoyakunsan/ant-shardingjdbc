@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ant-shardingjdbc.iml" filepath="$PROJECT_DIR$/ant-shardingjdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/channel-core/channel-core.iml" filepath="$PROJECT_DIR$/channel-core/channel-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/channel-web/channel-web.iml" filepath="$PROJECT_DIR$/channel-web/channel-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tzn.iml" filepath="$PROJECT_DIR$/tzn.iml" />
     </modules>
   </component>
 </project>

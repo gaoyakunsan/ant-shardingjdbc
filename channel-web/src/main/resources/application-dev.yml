@@ -1,31 +1,45 @@
 server:
   port: 8082
 
-spring:
-  datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-  application:
-    name: springboot-mybatisplus-shardingjdbc
-  thymeleaf:
-    cache: false
-    mode: HTML
 
-sharding.jdbc:
-  data-sources:
-    ds_master:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/tzn?allowMultiQueries=true&useUnicode=yes&characterEncoding=utf8&serverTimezone=GMT%2B8
-      username: root
-      password: root
-    ds_slave_0:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/tzn?allowMultiQueries=true&useUnicode=yes&characterEncoding=utf8&serverTimezone=GMT%2B8
-      username: root
-      password: root
-  master-slave-rule:
-    name: ds_ms
-    master-data-source-name: ds_master
-    slave-data-source-names: ds_slave_0
-    load-balance-algorithm-type: round_robin
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  shardingsphere:
+    datasource:
+      names: master,slave
+      master:
+        driver-class-name: com.mysql.jdbc.Driver
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/tzn?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+        username: root
+        password: root
+      slave:
+        driver-class-name: com.mysql.jdbc.Driver
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://localhost:3306/tzn?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+        username: root
+        password: root
     props:
-      sql.show: true
+      sql:
+        show: true
+    sharding:
+      binding-tables: product
+      master-slave-rules:
+        ds0:
+          master-data-source-name: master
+          slave-data-source-names: slave
+          load-balance-algorithm-type: round_robin
+      tables:
+        product:
+          actual-data-nodes: ds0.product$->{0..1}
+          key-generator:
+            column: id
+            type: SNOWFLAKE
+          table-strategy:
+            inline:
+              algorithm-expression: product$->{id % 2}
+              sharding-column: id
+  thymeleaf:
+        cache: false
+        mode: HTML

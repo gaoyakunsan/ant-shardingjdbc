@@ -20,7 +20,7 @@ public class WebConfiguration implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(jwtInterceptor()).addPathPatterns(Arrays.asList("/user/**","/moniter/**","/strategy/**"))
-                .excludePathPatterns(Arrays.asList("/", "/login"));
+                .excludePathPatterns(Arrays.asList("/", "/login", "/api"));
     }
 
 }

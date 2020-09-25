@@ -1,5 +1,6 @@
 package com.gao.channelweb;
 
+import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 import com.alibaba.druid.support.http.StatViewServlet;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -13,7 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableTransactionManagement
 @SpringBootApplication(scanBasePackages = {"com.gao.channelweb.controller",
-    "com.gao.channelcore.business","com.gao.channelcore.config"})
+    "com.gao.channelcore.business","com.gao.channelcore.config"}, exclude = {DruidDataSourceAutoConfigure.class})
 @MapperScan("com.gao.channelcore.business.dao")
 @EnableScheduling
 public class ChannelWebApplication extends SpringBootServletInitializer {

@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="tzn.war">
+    <root id="archive" name="ant-shardingjdbc.war">
       <element id="artifact" artifact-name="channel-web:war exploded" />
     </root>
   </artifact>
